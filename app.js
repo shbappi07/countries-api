@@ -7,8 +7,10 @@ const displayCountries = countries => {
     const coutriesDiv = document.getElementById("country-list");
     for (let i = 0; i < countries.length; i++) {
         const country = countries[i];
-
+        
         const div = document.createElement("div");
+        div.className = "country";
+        
         const h3 = document.createElement("h3");
         h3.innerText = country.name;
         const p = document.createElement("p");
