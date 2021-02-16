@@ -15,3 +15,8 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
 }
+div img{
+    width: 150px;
+    height: 100px;
+    margin-top: 5px;
+}
